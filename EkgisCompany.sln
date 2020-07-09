@@ -8,9 +8,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{52
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{A406360A-E18F-4768-95D8-A03174405D5F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A406360A-E18F-4768-95D8-A03174405D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A406360A-E18F-4768-95D8-A03174405D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A406360A-E18F-4768-95D8-A03174405D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A406360A-E18F-4768-95D8-A03174405D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A406360A-E18F-4768-95D8-A03174405D5F} = {5242FB2E-F7CD-4DEF-B12D-9160A3732A81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CFABAEE-E90F-478D-B5A6-EA3D664091F3}
