@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Data", "WebApp.Data\WebApp.Data.csproj", "{6D8CE033-2984-434F-BE2A-97986A6E7088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkWebApp", "EkWebApp\EkWebApp.csproj", "{03C675E7-0496-4AA4-8715-1E05FA5C94C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EkWebApp", "EkWebApp\EkWebApp.csproj", "{03C675E7-0496-4AA4-8715-1E05FA5C94C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,9 +35,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{03C675E7-0496-4AA4-8715-1E05FA5C94C0} = {5242FB2E-F7CD-4DEF-B12D-9160A3732A81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CFABAEE-E90F-478D-B5A6-EA3D664091F3}
